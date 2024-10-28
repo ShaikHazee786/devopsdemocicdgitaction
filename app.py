@@ -3,7 +3,7 @@ app=Flask(__name__)
 @app.route("/")
 def home():
 
-    return "<h1 style='color:blue'>Hello, This is CICD with GitAction for Flask App</h1>"
+    return "Hello, This is CICD with GitAction for Flask App"
 @app.route("/about")
 def about():
     return "Welcomt to my about page"
