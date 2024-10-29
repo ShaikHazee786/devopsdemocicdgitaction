@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "Welcome to my about page1"
+    return "Welcome to my about page12"
 
 @app.route("/service")
 def service():
